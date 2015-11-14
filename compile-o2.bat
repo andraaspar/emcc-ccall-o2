@@ -1,0 +1,1 @@
+emcc test.c -o o2.js -O2 -s EXPORTED_FUNCTIONS="['_say_hello']" -s NO_EXIT_RUNTIME=1
